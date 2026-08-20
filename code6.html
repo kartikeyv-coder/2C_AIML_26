@@ -101,7 +101,7 @@
             let mobileInput = document.getElementById('number').value;
 
            
-            if (nameInput.trim() === "") {
+            if (nameInput.trim() === "" && isNaN(nameInput)) {
                 alert("Please fill in your Name.");
                 return false;
             }
